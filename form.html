@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Tugas Form Sederhana</title>
+  </head>
+  <body>
+    <h2>Formulir Pendaftaran Kursus</h2>
+    <form action="proses.php" method="POST">
+      <p>
+        <label>Nama Lengkap :</label>
+        <input type="text" name="nama_user" />
+      </p>
+
+      <p>
+        <label>Alamat :</label>
+        <textarea name="alamat_user"></textarea>
+      </p>
+
+      <p>
+        <label>Tanggal Lahir:</label>
+        <input type="date" name="tglLahir_user" />
+      </p>
+
+      <p>
+        <label>Jenis Kelamin:</label><br />
+
+        <input type="radio" name="kelamin_user" value="Laki-Laki" /> Laki-Laki
+        <input type="radio" name="kelamin_user" value="Perempuan" /> Perempuan
+      </p>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
