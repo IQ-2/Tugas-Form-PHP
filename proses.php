@@ -18,7 +18,7 @@
         $tanggal_lahir = $_POST['tglLahir_user'];
         $jenis_kelamin = $_POST['kelamin_user'];
 
-        echo "    <h1>Terima Kasih Telah Mendaftar!</h1>";
+        echo "<h1>Terima Kasih Telah Mendaftar!</h1>";
         echo "<p>Halo, <strong>" . htmlspecialchars($nama) . "</strong>!</p>";
         echo "<p>Data Anda telah berhasil kami terima.</p>";
         echo "<p><strong>Jenis Kelamin:</strong> " . htmlspecialchars($jenis_kelamin) . "</p>";
